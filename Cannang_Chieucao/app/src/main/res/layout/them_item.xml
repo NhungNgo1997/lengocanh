@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="-10dp"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Thêm Chỉ Số"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:background="#3c7b35"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="Nhập họ tên"
+        android:id="@+id/edhoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Nhập chiều cao:"
+        android:id="@+id/edchieucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:hint="Nhập cân nặng: "
+        android:id="@+id/edcannang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Thêm"
+            android:id="@+id/btnthem"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Hủy"
+            android:id="@+id/btnhuy"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

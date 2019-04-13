@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    >
+    <ImageView
+        android:id="@+id/ivanh"
+        android:layout_width="65dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/tvten"
+        android:text="Họ Tên"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ivanh"
+        android:textColor="#ef0606"/>
+    <TextView
+        android:id="@+id/cmm"
+        android:text="cmm"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvchieucao"
+        android:layout_below="@+id/tvten"
+        android:textColor="#ef0606"/>
+    <TextView
+        android:id="@+id/tvchieucao"
+        android:layout_toRightOf="@+id/ivanh"
+        android:layout_below="@+id/tvten"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chiều Cao"
+        android:textSize="20dp"
+        android:textColor="#ef0606"/>
+    <TextView
+        android:id="@+id/tvcannang"
+        android:layout_toRightOf="@+id/ivanh"
+        android:layout_below="@+id/tvchieucao"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cân Nặng"
+        android:textSize="20dp"
+        android:textColor="#ef0606"/>
+    <TextView
+        android:text="kg"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvcannang"
+        android:layout_below="@+id/cmm"
+        android:textColor="#ef0606"/>
+
+
+</RelativeLayout>
